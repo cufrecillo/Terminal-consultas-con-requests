@@ -35,8 +35,7 @@ while option_exit == True:
     elif user_option == '5':
         print("OPCION HISTORIAL")
         funcs.show_historial("./countries.csv")
-
-    elif user_option == '6':    #terminar opciones de mostrar name / area
+    elif user_option == '6':  
         print("TOP PAISES MAS GRANDES:")
         user_search = input("Introduzca numero de paises a mostrar: ")
         print(funcs.top_larges(user_search))
@@ -44,7 +43,6 @@ while option_exit == True:
         print("TOP PAISES MAS POBLADOS:")
         user_search = input("Introduzca numero de paises a mostrar: ")
         print(funcs.top_population(user_search))
-
     elif user_option == '8':
         print("IDIOMA MAS HABLADO:")
         funcs.count_languages()
