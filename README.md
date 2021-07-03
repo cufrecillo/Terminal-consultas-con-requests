@@ -2,6 +2,7 @@
 ### Ejercicio que simula una terminal con diferentes opciones de búsqueda con la libreria request, para no trabajar todo el tiempo con una BBDD en local.
 
 https://restcountries.eu/
+
 https://requests.readthedocs.io/en/master/
 
 Instalar la librería requests
